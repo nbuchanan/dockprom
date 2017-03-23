@@ -87,7 +87,7 @@ services:
     expose:
       - 3000
     ports:
-      - 3000:3000
+      - 4000:3000
     networks:
       - monitor-net
     labels:
